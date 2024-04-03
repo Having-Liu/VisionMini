@@ -7,23 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FC8D37C42B9DC6DD002ABDA6 /* floatitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8D37C32B9DC6DD002ABDA6 /* floatitApp.swift */; };
+		FC8D37C42B9DC6DD002ABDA6 /* VisionMiniApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8D37C32B9DC6DD002ABDA6 /* VisionMiniApp.swift */; };
 		FC8D37C62B9DC6DD002ABDA6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8D37C52B9DC6DD002ABDA6 /* ContentView.swift */; };
 		FC8D37C82B9DC6DE002ABDA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC8D37C72B9DC6DE002ABDA6 /* Assets.xcassets */; };
 		FC8D37CB2B9DC6DE002ABDA6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC8D37CA2B9DC6DE002ABDA6 /* Preview Assets.xcassets */; };
 		FC8D37CD2B9DC6DE002ABDA6 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8D37CC2B9DC6DE002ABDA6 /* Persistence.swift */; };
-		FC8D37D02B9DC6DE002ABDA6 /* floatit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC8D37CE2B9DC6DE002ABDA6 /* floatit.xcdatamodeld */; };
+		FC8D37D02B9DC6DE002ABDA6 /* VisionMini.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC8D37CE2B9DC6DE002ABDA6 /* VisionMini.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FC8D37C02B9DC6DD002ABDA6 /* floatit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = floatit.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC8D37C32B9DC6DD002ABDA6 /* floatitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = floatitApp.swift; sourceTree = "<group>"; };
+		FC8D37C02B9DC6DD002ABDA6 /* VisionMini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisionMini.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC8D37C32B9DC6DD002ABDA6 /* VisionMiniApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionMiniApp.swift; sourceTree = "<group>"; };
 		FC8D37C52B9DC6DD002ABDA6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FC8D37C72B9DC6DE002ABDA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC8D37CA2B9DC6DE002ABDA6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FC8D37CC2B9DC6DE002ABDA6 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		FC8D37CF2B9DC6DE002ABDA6 /* floatit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = floatit.xcdatamodel; sourceTree = "<group>"; };
-		FC8D37D12B9DC6DE002ABDA6 /* floatit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = floatit.entitlements; sourceTree = "<group>"; };
+		FC8D37D12B9DC6DE002ABDA6 /* VisionMini.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VisionMini.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +40,7 @@
 		FC8D37B72B9DC6DD002ABDA6 = {
 			isa = PBXGroup;
 			children = (
-				FC8D37C22B9DC6DD002ABDA6 /* floatit */,
+				FC8D37C22B9DC6DD002ABDA6 /* VisionMini */,
 				FC8D37C12B9DC6DD002ABDA6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,23 +48,23 @@
 		FC8D37C12B9DC6DD002ABDA6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FC8D37C02B9DC6DD002ABDA6 /* floatit.app */,
+				FC8D37C02B9DC6DD002ABDA6 /* VisionMini.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FC8D37C22B9DC6DD002ABDA6 /* floatit */ = {
+		FC8D37C22B9DC6DD002ABDA6 /* VisionMini */ = {
 			isa = PBXGroup;
 			children = (
-				FC8D37C32B9DC6DD002ABDA6 /* floatitApp.swift */,
+				FC8D37C32B9DC6DD002ABDA6 /* VisionMiniApp.swift */,
 				FC8D37C52B9DC6DD002ABDA6 /* ContentView.swift */,
 				FC8D37C72B9DC6DE002ABDA6 /* Assets.xcassets */,
 				FC8D37CC2B9DC6DE002ABDA6 /* Persistence.swift */,
-				FC8D37D12B9DC6DE002ABDA6 /* floatit.entitlements */,
-				FC8D37CE2B9DC6DE002ABDA6 /* floatit.xcdatamodeld */,
+				FC8D37D12B9DC6DE002ABDA6 /* VisionMini.entitlements */,
+				FC8D37CE2B9DC6DE002ABDA6 /* VisionMini.xcdatamodeld */,
 				FC8D37C92B9DC6DE002ABDA6 /* Preview Content */,
 			);
-			path = floatit;
+			path = VisionMini;
 			sourceTree = "<group>";
 		};
 		FC8D37C92B9DC6DE002ABDA6 /* Preview Content */ = {
@@ -78,9 +78,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FC8D37BF2B9DC6DD002ABDA6 /* floatit */ = {
+		FC8D37BF2B9DC6DD002ABDA6 /* VisionMini */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FC8D37D42B9DC6DE002ABDA6 /* Build configuration list for PBXNativeTarget "floatit" */;
+			buildConfigurationList = FC8D37D42B9DC6DE002ABDA6 /* Build configuration list for PBXNativeTarget "VisionMini" */;
 			buildPhases = (
 				FC8D37BC2B9DC6DD002ABDA6 /* Sources */,
 				FC8D37BD2B9DC6DD002ABDA6 /* Frameworks */,
@@ -90,9 +90,9 @@
 			);
 			dependencies = (
 			);
-			name = floatit;
+			name = VisionMini;
 			productName = floatit;
-			productReference = FC8D37C02B9DC6DD002ABDA6 /* floatit.app */;
+			productReference = FC8D37C02B9DC6DD002ABDA6 /* VisionMini.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -110,7 +110,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FC8D37BB2B9DC6DD002ABDA6 /* Build configuration list for PBXProject "floatit" */;
+			buildConfigurationList = FC8D37BB2B9DC6DD002ABDA6 /* Build configuration list for PBXProject "VisionMini" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -123,7 +123,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FC8D37BF2B9DC6DD002ABDA6 /* floatit */,
+				FC8D37BF2B9DC6DD002ABDA6 /* VisionMini */,
 			);
 		};
 /* End PBXProject section */
@@ -147,8 +147,8 @@
 			files = (
 				FC8D37CD2B9DC6DE002ABDA6 /* Persistence.swift in Sources */,
 				FC8D37C62B9DC6DD002ABDA6 /* ContentView.swift in Sources */,
-				FC8D37C42B9DC6DD002ABDA6 /* floatitApp.swift in Sources */,
-				FC8D37D02B9DC6DE002ABDA6 /* floatit.xcdatamodeld in Sources */,
+				FC8D37C42B9DC6DD002ABDA6 /* VisionMiniApp.swift in Sources */,
+				FC8D37D02B9DC6DE002ABDA6 /* VisionMini.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,22 +278,24 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = floatit/floatit.entitlements;
+				CODE_SIGN_ENTITLEMENTS = VisionMini/VisionMini.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"floatit/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"VisionMini/Preview Content\"";
 				DEVELOPMENT_TEAM = MXHBUQH27V;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = zizai.floatit;
+				PRODUCT_BUNDLE_IDENTIFIER = zizai.VisionMini;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -305,22 +307,24 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = floatit/floatit.entitlements;
+				CODE_SIGN_ENTITLEMENTS = VisionMini/VisionMini.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"floatit/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"VisionMini/Preview Content\"";
 				DEVELOPMENT_TEAM = MXHBUQH27V;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = zizai.floatit;
+				PRODUCT_BUNDLE_IDENTIFIER = zizai.VisionMini;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -330,7 +334,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FC8D37BB2B9DC6DD002ABDA6 /* Build configuration list for PBXProject "floatit" */ = {
+		FC8D37BB2B9DC6DD002ABDA6 /* Build configuration list for PBXProject "VisionMini" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FC8D37D22B9DC6DE002ABDA6 /* Debug */,
@@ -339,7 +343,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FC8D37D42B9DC6DE002ABDA6 /* Build configuration list for PBXNativeTarget "floatit" */ = {
+		FC8D37D42B9DC6DE002ABDA6 /* Build configuration list for PBXNativeTarget "VisionMini" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FC8D37D52B9DC6DE002ABDA6 /* Debug */,
@@ -351,13 +355,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		FC8D37CE2B9DC6DE002ABDA6 /* floatit.xcdatamodeld */ = {
+		FC8D37CE2B9DC6DE002ABDA6 /* VisionMini.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				FC8D37CF2B9DC6DE002ABDA6 /* floatit.xcdatamodel */,
 			);
 			currentVersion = FC8D37CF2B9DC6DE002ABDA6 /* floatit.xcdatamodel */;
-			path = floatit.xcdatamodeld;
+			path = VisionMini.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
