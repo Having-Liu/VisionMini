@@ -51,6 +51,8 @@ struct ContentView: View {
         if let urls = UserDefaults.standard.array(forKey: "HistoryURLs") as? [String] {
             historyURLs = urls
             print("启动时加载历史记录: \(historyURLs)")
+        }else {
+            print("No history URLs found or data type mismatch.")
         }
         // 加载最后一次访问的链接
         if let lastURL = UserDefaults.standard.string(forKey: "LastVisitedURL") {
@@ -274,7 +276,14 @@ struct WebView: NSViewRepresentable {
         
         let webView = WKWebView()
         webView.navigationDelegate = context.coordinator
-        webView.load(URLRequest(url: URL(string: url)!))
+//        webView.load(URLRequest(url: URL(string: url)!))
+        if let url = URL(string: url) {
+            let request = URLRequest(url: url)
+            webView.load(request)
+        } else {
+            print("Invalid URL string: \(url)")
+        }
+
         
         // 添加监听器
         NotificationCenter.default.addObserver(forName: .reloadWebView, object: nil, queue: .main) { _ in
