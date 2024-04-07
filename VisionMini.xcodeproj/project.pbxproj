@@ -11,7 +11,6 @@
 		FC8D37C62B9DC6DD002ABDA6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8D37C52B9DC6DD002ABDA6 /* ContentView.swift */; };
 		FC8D37C82B9DC6DE002ABDA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC8D37C72B9DC6DE002ABDA6 /* Assets.xcassets */; };
 		FC8D37CB2B9DC6DE002ABDA6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC8D37CA2B9DC6DE002ABDA6 /* Preview Assets.xcassets */; };
-		FC8D37CD2B9DC6DE002ABDA6 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8D37CC2B9DC6DE002ABDA6 /* Persistence.swift */; };
 		FC8D37D02B9DC6DE002ABDA6 /* VisionMini.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC8D37CE2B9DC6DE002ABDA6 /* VisionMini.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
@@ -21,7 +20,6 @@
 		FC8D37C52B9DC6DD002ABDA6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FC8D37C72B9DC6DE002ABDA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC8D37CA2B9DC6DE002ABDA6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		FC8D37CC2B9DC6DE002ABDA6 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		FC8D37CF2B9DC6DE002ABDA6 /* floatit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = floatit.xcdatamodel; sourceTree = "<group>"; };
 		FC8D37D12B9DC6DE002ABDA6 /* VisionMini.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VisionMini.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -59,7 +57,6 @@
 				FC8D37C32B9DC6DD002ABDA6 /* VisionMiniApp.swift */,
 				FC8D37C52B9DC6DD002ABDA6 /* ContentView.swift */,
 				FC8D37C72B9DC6DE002ABDA6 /* Assets.xcassets */,
-				FC8D37CC2B9DC6DE002ABDA6 /* Persistence.swift */,
 				FC8D37D12B9DC6DE002ABDA6 /* VisionMini.entitlements */,
 				FC8D37CE2B9DC6DE002ABDA6 /* VisionMini.xcdatamodeld */,
 				FC8D37C92B9DC6DE002ABDA6 /* Preview Content */,
@@ -145,7 +142,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC8D37CD2B9DC6DE002ABDA6 /* Persistence.swift in Sources */,
 				FC8D37C62B9DC6DD002ABDA6 /* ContentView.swift in Sources */,
 				FC8D37C42B9DC6DD002ABDA6 /* VisionMiniApp.swift in Sources */,
 				FC8D37D02B9DC6DE002ABDA6 /* VisionMini.xcdatamodeld in Sources */,
